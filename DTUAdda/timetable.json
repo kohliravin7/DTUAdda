@@ -1,0 +1,263 @@
+{
+"TimeTable":
+[
+{
+ "Batch A":[
+{
+"batch": "A1",
+"imageLink": "https://i.imgur.com/16yNRsT.jpg"
+},
+{
+"batch": "A2",
+"imageLink": "https://i.imgur.com/NXfJyly.jpg"
+},
+{
+"batch": "A3",
+"imageLink": "https://i.imgur.com/ehgY8xv.jpg"
+},
+{
+"batch": "A4",
+"imageLink": "https://i.imgur.com/3MgpJrm.jpg"
+},
+{
+"batch": "A5",
+"imageLink": "https://i.imgur.com/yqjsw8S.jpg"
+},
+{
+"batch": "A6",
+"imageLink": "https://i.imgur.com/SDSKGmF.jpg"
+},
+{
+"batch": "A7",
+"imageLink": "https://i.imgur.com/SaIh71Q.jpg"
+},
+{
+"batch": "A8",
+"imageLink": "https://i.imgur.com/fHr0DaR.jpg"
+},
+{
+"batch": "A9",
+"imageLink": "https://i.imgur.com/KyxAsce.jpg"
+},
+{
+"batch": "A10",
+"imageLink": "https://i.imgur.com/51VuCT0.jpg"
+}],
+ "Batch B":[
+{
+"batch": "B1",
+"imageLink": "https://i.imgur.com/rs1GAuz.jpg"
+},
+{
+"batch": "B2",
+"imageLink": "https://i.imgur.com/pYV00CU.jpg"
+},
+{
+"batch": "B3",
+"imageLink": "https://i.imgur.com/NZwnu8W.jpg"
+},
+{
+"batch": "B4",
+"imageLink": "https://i.imgur.com/k5uJEW5.jpg"
+},
+{
+"batch": "B5",
+"imageLink": "https://i.imgur.com/OeVgsaK.jpg"
+},
+{
+"batch": "B6",
+"imageLink": "https://i.imgur.com/goXlbNx.jpg"
+},
+{
+"batch": "B7",
+"imageLink": "https://i.imgur.com/VjgkEzt.jpg"
+},
+{
+"batch": "B8",
+"imageLink": "https://i.imgur.com/V3S7wr8.jpg"
+},
+{
+"batch": "B9",
+"imageLink": "https://i.imgur.com/qn7SJP9.jpg"
+},
+{
+"batch": "B10",
+"imageLink": "https://i.imgur.com/45dYOIV.jpg"
+}],
+ "COE":[
+{
+"batch": "COE BATCH A SEMESTER 4",
+"imageLink": "https://i.imgur.com/YIIc30O.jpg"
+},
+{
+"batch": "COE BATCH B SEMESTER 4",
+"imageLink": "https://i.imgur.com/q6BDcRF.jpg"
+},
+{
+"batch": "COE BATCH A SEMESTER 6",
+"imageLink": "https://i.imgur.com/6zKAIMr.jpg"
+},
+{
+"batch": "COE BATCH B SEMESTER 6",
+"imageLink": "https://i.imgur.com/30lqiIt.jpg"
+}],
+"IT":[
+{
+"batch": "IT BATCH A SEMESTER 4",
+"imageLink": "https://i.imgur.com/QehftPU.jpg"
+},
+{
+"batch": "IT BATCH B SEMESTER 4",
+"imageLink": "https://i.imgur.com/yYz6TAP.jpg"
+},
+
+{
+"batch": "IT BATCH A SEMESTER 6",
+"imageLink": "https://i.imgur.com/bMMJWBa.jpg"
+}],
+"SE":[
+{
+"batch": "SE BATCH A SEMESTER 4",
+"imageLink": "https://i.imgur.com/0Fn8yML.jpg"
+},
+{
+"batch": "SE BATCH B SEMESTER 4",
+"imageLink": "https://i.imgur.com/xaHqews.jpg"
+}],
+"ECE":[
+{
+"batch": "ECE BATCH C SEMESTER 4",
+"imageLink": "https://i.imgur.com/DmNOPzN.jpg"
+},
+{
+"batch": "ECE BATCH D SEMESTER 4",
+"imageLink": "https://i.imgur.com/vl6yPJ4.jpg"
+},
+{
+"batch": "ECE BATCH E SEMESTER 4",
+"imageLink": "https://i.imgur.com/pzZQ70v.jpg"
+},
+
+{
+"batch": "ECE BATCH C SEMESTER 6",
+"imageLink": "https://i.imgur.com/noJABI1.jpg"
+},
+{
+"batch": "ECE BATCH D SEMESTER 6",
+"imageLink": "https://i.imgur.com/uGEP9of.jpg"
+},
+{
+"batch": "ECE BATCH C SEMESTER 6",
+"imageLink": "https://i.imgur.com/zChW8Tp.jpg"
+}],
+"EEE":[
+{
+"batch": "EEE BATCH 1 SEMESTER 4",
+"imageLink": "https://i.imgur.com/2PzrLiW.jpg"
+},
+{
+"batch": "EEE BATCH 2 SEMESTER 4",
+"imageLink": "https://i.imgur.com/JmTcjC8.jpg"
+}],
+"EE":[
+{
+"batch": "EE BATCH 1 SEMESTER 4",
+"imageLink": "https://i.imgur.com/90jpcpM.jpg"
+},
+{
+"batch": "EE BATCH 2 SEMESTER 4",
+"imageLink": "https://i.imgur.com/Cx1CCAS.jpg"
+}],
+"MECH":[
+{
+"batch": "MECH BATCH L,M,N SEMESTER 4",
+"imageLink": "https://i.imgur.com/W08KtuT.jpg"
+},
+{
+"batch": "MECH BATCH O,P,Q SEMESTER 4",
+"imageLink": "https://i.imgur.com/3UxjZXh.jpg"
+},
+{
+"batch": "MECH BATCH I,J,K SEMESTER 6",
+"imageLink": "https://i.imgur.com/GLxxWeL.jpg"
+},
+{
+"batch": "MECH BATCH L,M,N SEMESTER 6",
+"imageLink": "https://i.imgur.com/FPlZG2a.jpg"
+},
+{
+"batch": "MECH BATCH O,P,Q SEMESTER 6",
+"imageLink": "https://i.imgur.com/o74pg5i.jpg"
+}],
+"CE":[
+{
+"batch": "CE BATCH A SEMESTER 4",
+"imageLink": "https://i.imgur.com/TWK858Q.jpg"
+},
+{
+"batch": "CE BATCH A SEMESTER 4",
+"imageLink": "https://i.imgur.com/cBQ81jc.jpg"
+},
+
+{
+"batch": "CE BATCH A SEMESTER 6",
+"imageLink": "https://i.imgur.com/qF3CFt5.jpg"
+},
+{
+"batch": "CE BATCH B SEMESTER 6",
+"imageLink": "https://i.imgur.com/vXbqMEw.jpg"
+}],
+"PSCT":[
+{
+"batch": "PSCT SEMESTER 4",
+"imageLink": "https://i.imgur.com/dE8PXH1.jpg"
+},
+
+{
+"batch": "PSCT SEMESTER 6",
+"imageLink": "https://i.imgur.com/x99GftJ.jpg"
+}],
+"BT":[
+{
+"batch": "BT SEMESTER 4",
+"imageLink": "http://i.imgur.com/O7ndQyO.jpg"
+}],
+"EP":[
+{
+"batch": "EP SEMESTER 4",
+"imageLink": "https://i.imgur.com/E9UMXni.jpg"
+},
+
+{
+"batch": "EP SEMESTER 6",
+"imageLink": "https://i.imgur.com/baqYyLp.jpg"
+}],
+"PROD":[
+{
+"batch": "PROD SEMESTER 4",
+"imageLink": "https://i.imgur.com/GOd7Td1.jpg"
+},
+
+{
+"batch": "PROD SEMESTER 6",
+"imageLink": "https://i.imgur.com/d674K2c.jpg"
+}],
+"EN":[
+{
+"batch": "EN SEMESTER 4",
+"imageLink": "https://i.imgur.com/S9wgCyj.jpg"
+}],
+"MCE":[
+{
+"batch": "MCE BATCH A SEMESTER 6",
+"imageLink": "https://i.imgur.com/U4hJJdO.jpg"
+},
+{
+"batch": "MCE BATCH B SEMESTER 6",
+"imageLink": "https://i.imgur.com/p07C8d0.jpg"
+}]
+}
+]
+}
+
+
