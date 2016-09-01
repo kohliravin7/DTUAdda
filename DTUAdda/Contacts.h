@@ -10,4 +10,12 @@
 
 @interface Contacts : NSObject
 
+@property (nonatomic) NSString *title;
+@property (nonatomic) NSString *descriptions;
+@property (nonatomic) NSDictionary *contact;
+@property (nonatomic) NSString *image;
+
+-(id) initWithTitle:(NSString *)title;
++(id) contactWithTitle:(NSString *)title;
+
 @end

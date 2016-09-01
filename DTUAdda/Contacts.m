@@ -10,4 +10,20 @@
 
 @implementation Contacts
 
+-(id) initWithTitle:(NSString *)title{
+    self = [super init];
+    if (self) {
+        _title = title;
+        _descriptions = nil;
+        _image = nil;
+        _contact = nil;
+    }
+    
+    return self;
+}
+
++(id) contactWithTitle:(NSString *)title{
+    return [[self alloc] initWithTitle:title];
+}
+
 @end

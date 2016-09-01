@@ -10,4 +10,10 @@
 
 @interface ContactsCollectionViewCell : UICollectionViewCell
 
+@property (nonatomic) UIImageView *imageView;
+@property (nonatomic) UIImage *image;
+@property (nonatomic) NSString *photoURL;
+@property (nonatomic) UILabel *nameLabel;
+@property (nonatomic) NSString *nameString;
+
 @end

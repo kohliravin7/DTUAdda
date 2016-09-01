@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Marker.h"
 
-@interface MapsViewController : ViewController
+@import GoogleMaps;
+
+@interface MapsViewController : UIViewController
+
+@property (nonatomic) NSMutableArray *markers;
+@property (nonatomic) CLLocationManager *locationManager;
+@property (nonatomic) CLLocation *currentLocation;
+
++ (void)removeGMSBlockingGestureRecognizerFromMapView:(GMSMapView *)mapView;
 
 @end

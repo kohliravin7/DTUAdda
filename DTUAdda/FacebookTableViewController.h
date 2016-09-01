@@ -7,7 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CellDetailViewController.h"
+
+
+@class Reachability;
+
+Reachability* internetReachable;
 
 @interface FacebookTableViewController : UITableViewController
 
+@property (nonatomic) NSMutableArray *feedArray;
+@property (nonatomic) UIRefreshControl *refreshControl;
+@property (nonatomic) NSURL *feedURL;
+@property (nonatomic) UIActivityIndicatorView *indicator;
+@property (nonatomic) BOOL internetActive;
+@property (nonatomic) NSMutableArray *sizeArray;
+@property (nonatomic) CellDetailViewController *cdvc;
 @end

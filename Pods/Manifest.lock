@@ -1,0 +1,17 @@
+PODS:
+  - GoogleMaps (1.10.5)
+  - HSClusterMapView (1.0.3):
+    - GoogleMaps (~> 1.10.1)
+  - MLPAutoCompleteTextField (1.5)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - HSClusterMapView
+  - MLPAutoCompleteTextField
+
+SPEC CHECKSUMS:
+  GoogleMaps: da51c62c338c2d9c47cdad470a0d1e0e4b8544e4
+  HSClusterMapView: 9c1d9c3020678283c48b2c81b587036aa8c479e1
+  MLPAutoCompleteTextField: ba4d507bbff2bd4f139d4197814fc8dd39caf77e
+
+COCOAPODS: 0.39.0

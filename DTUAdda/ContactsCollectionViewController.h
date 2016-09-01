@@ -10,4 +10,6 @@
 
 @interface ContactsCollectionViewController : UICollectionViewController
 
+@property (nonatomic) NSMutableArray *contacts;
+
 @end

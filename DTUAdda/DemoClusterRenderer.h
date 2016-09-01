@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <HSClusterMapView/HSClusterRenderer.h>
+@import UIKit;
 
-@interface DemoClusterRenderer : NSObject
+@interface DemoClusterRenderer : NSObject <HSClusterRenderer>
 
 @end

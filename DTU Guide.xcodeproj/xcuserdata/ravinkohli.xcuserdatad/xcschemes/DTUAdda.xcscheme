@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "342EC86D1C635E0200D23226"
-               BuildableName = "DTUAdda.app"
-               BlueprintName = "DTUAdda"
-               ReferencedContainer = "container:DTUAdda.xcodeproj">
+               BuildableName = "DTU Guide.app"
+               BlueprintName = "DTU Guide"
+               ReferencedContainer = "container:DTU Guide.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "342EC8891C635E0200D23226"
-               BuildableName = "DTUAddaTests.xctest"
-               BlueprintName = "DTUAddaTests"
-               ReferencedContainer = "container:DTUAdda.xcodeproj">
+               BuildableName = "DTU Guide.xctest"
+               BlueprintName = "DTU GuideTests"
+               ReferencedContainer = "container:DTU Guide.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "342EC8941C635E0200D23226"
-               BuildableName = "DTUAddaUITests.xctest"
-               BlueprintName = "DTUAddaUITests"
-               ReferencedContainer = "container:DTUAdda.xcodeproj">
+               BuildableName = "DTU Guide.xctest"
+               BlueprintName = "DTU GuideUITests"
+               ReferencedContainer = "container:DTU Guide.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "342EC86D1C635E0200D23226"
-            BuildableName = "DTUAdda.app"
-            BlueprintName = "DTUAdda"
-            ReferencedContainer = "container:DTUAdda.xcodeproj">
+            BuildableName = "DTU Guide.app"
+            BlueprintName = "DTU Guide"
+            ReferencedContainer = "container:DTU Guide.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "342EC86D1C635E0200D23226"
-            BuildableName = "DTUAdda.app"
-            BlueprintName = "DTUAdda"
-            ReferencedContainer = "container:DTUAdda.xcodeproj">
+            BuildableName = "DTU Guide.app"
+            BlueprintName = "DTU Guide"
+            ReferencedContainer = "container:DTU Guide.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "342EC86D1C635E0200D23226"
-            BuildableName = "DTUAdda.app"
-            BlueprintName = "DTUAdda"
-            ReferencedContainer = "container:DTUAdda.xcodeproj">
+            BuildableName = "DTU Guide.app"
+            BlueprintName = "DTU Guide"
+            ReferencedContainer = "container:DTU Guide.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

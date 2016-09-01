@@ -7,7 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "FacebookFeed.h"
 @interface CellDetailViewController : UIViewController
+
+@property (nonatomic) FacebookFeed *feed;
+//@property (nonatomic) NSDictionary *size;
+
+@property (nonatomic) UILabel *nameLabel;
+@property (nonatomic) UILabel *dateLabel;
+@property (nonatomic) UITextView *messageLabel;
+@property (nonatomic) UIImageView *imageView;
+@property (nonatomic) UIImage *image;
+@property (nonatomic) NSDictionary *sizeDictionary;
+@property (nonatomic) UIView *cardView;
+@property (nonatomic) NSInteger row;
 
 @end

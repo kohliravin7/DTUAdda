@@ -10,4 +10,7 @@
 
 @interface NotesViewController : UIViewController
 
+@property (nonatomic) UIWebView *notesWebView;
+@property (nonatomic) UIActivityIndicatorView *indicator;
+
 @end

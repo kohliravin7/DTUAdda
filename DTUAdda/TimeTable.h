@@ -10,4 +10,7 @@
 
 @interface TimeTable : NSObject
 
+@property (nonatomic) NSMutableArray *streamArray;
+@property (nonatomic) NSMutableDictionary *streamDictionary;
+
 @end

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		151D4C24F9BFB623B0BE440A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1C18CD0A620C8D7C4C197A /* libPods.a */; };
+		341D48441D032C5000D73BD9 /* TimeTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 341D48431D032C5000D73BD9 /* TimeTable.m */; };
+		341D48461D0411E700D73BD9 /* timetable.json in Resources */ = {isa = PBXBuildFile; fileRef = 341D48451D0411E700D73BD9 /* timetable.json */; };
 		341E26961CD2BCD1005C4CC7 /* FacebookTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 341E26951CD2BCD1005C4CC7 /* FacebookTableViewController.m */; };
 		341E26991CD2BDFC005C4CC7 /* FacebookFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 341E26981CD2BDFC005C4CC7 /* FacebookFeed.m */; };
 		341E269C1CD2BF4D005C4CC7 /* FacebookTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 341E269B1CD2BF4D005C4CC7 /* FacebookTableViewCell.m */; };
@@ -24,7 +26,9 @@
 		341E26C71CD7A5A1005C4CC7 /* dtumain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 341E26C61CD7A5A1005C4CC7 /* dtumain.jpg */; };
 		341E26C91CD7A625005C4CC7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 341E26C81CD7A625005C4CC7 /* Images.xcassets */; };
 		341E26CB1CD7AD21005C4CC7 /* black.png in Resources */ = {isa = PBXBuildFile; fileRef = 341E26CA1CD7AD21005C4CC7 /* black.png */; };
-		341E26D11CD7C736005C4CC7 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 341E26D01CD7C736005C4CC7 /* facebook.png */; };
+		341E26D31CD8880B005C4CC7 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 341E26D21CD8880B005C4CC7 /* facebook.png */; };
+		341E26D61CFA0079005C4CC7 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 341E26D51CFA0079005C4CC7 /* Reachability.m */; };
+		342346BE1D11AA4300F2D92C /* CellDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 342346BD1D11AA4300F2D92C /* CellDetailViewController.m */; };
 		342B389A1C82306E005AA7F7 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342B38981C82306E005AA7F7 /* FBSDKLoginKit.framework */; };
 		342B389B1C82306E005AA7F7 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342B38991C82306E005AA7F7 /* FBSDKShareKit.framework */; };
 		342EC8731C635E0200D23226 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 342EC8721C635E0200D23226 /* main.m */; };
@@ -68,6 +72,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		341D48421D032C5000D73BD9 /* TimeTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeTable.h; sourceTree = "<group>"; };
+		341D48431D032C5000D73BD9 /* TimeTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeTable.m; sourceTree = "<group>"; };
+		341D48451D0411E700D73BD9 /* timetable.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = timetable.json; sourceTree = "<group>"; };
 		341E26941CD2BCD1005C4CC7 /* FacebookTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookTableViewController.h; sourceTree = "<group>"; };
 		341E26951CD2BCD1005C4CC7 /* FacebookTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookTableViewController.m; sourceTree = "<group>"; };
 		341E26971CD2BDFC005C4CC7 /* FacebookFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookFeed.h; sourceTree = "<group>"; };
@@ -92,20 +99,24 @@
 		341E26C61CD7A5A1005C4CC7 /* dtumain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dtumain.jpg; sourceTree = "<group>"; };
 		341E26C81CD7A625005C4CC7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		341E26CA1CD7AD21005C4CC7 /* black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black.png; sourceTree = "<group>"; };
-		341E26D01CD7C736005C4CC7 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		341E26D21CD8880B005C4CC7 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		341E26D41CFA0079005C4CC7 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = ../Reachability.h; sourceTree = "<group>"; };
+		341E26D51CFA0079005C4CC7 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = ../Reachability.m; sourceTree = "<group>"; };
+		342346BC1D11AA4300F2D92C /* CellDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellDetailViewController.h; sourceTree = "<group>"; };
+		342346BD1D11AA4300F2D92C /* CellDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellDetailViewController.m; sourceTree = "<group>"; };
 		342B38981C82306E005AA7F7 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		342B38991C82306E005AA7F7 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
-		342EC86E1C635E0200D23226 /* DTUAdda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DTUAdda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		342EC86E1C635E0200D23226 /* DTU Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DTU Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		342EC8721C635E0200D23226 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		342EC8741C635E0200D23226 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		342EC8751C635E0200D23226 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		342EC8801C635E0200D23226 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		342EC8831C635E0200D23226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		342EC8851C635E0200D23226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		342EC88A1C635E0200D23226 /* DTUAddaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DTUAddaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		342EC88A1C635E0200D23226 /* DTU Guide.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DTU Guide.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		342EC88E1C635E0200D23226 /* DTUAddaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTUAddaTests.m; sourceTree = "<group>"; };
 		342EC8901C635E0200D23226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		342EC8951C635E0200D23226 /* DTUAddaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DTUAddaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		342EC8951C635E0200D23226 /* DTU Guide.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DTU Guide.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		342EC8991C635E0200D23226 /* DTUAddaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTUAddaUITests.m; sourceTree = "<group>"; };
 		342EC89B1C635E0200D23226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		342EC8A91C635E2E00D23226 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -182,9 +193,9 @@
 		342EC86F1C635E0200D23226 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				342EC86E1C635E0200D23226 /* DTUAdda.app */,
-				342EC88A1C635E0200D23226 /* DTUAddaTests.xctest */,
-				342EC8951C635E0200D23226 /* DTUAddaUITests.xctest */,
+				342EC86E1C635E0200D23226 /* DTU Guide.app */,
+				342EC88A1C635E0200D23226 /* DTU Guide.xctest */,
+				342EC8951C635E0200D23226 /* DTU Guide.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -192,17 +203,23 @@
 		342EC8701C635E0200D23226 /* DTUAdda */ = {
 			isa = PBXGroup;
 			children = (
+				341E26D41CFA0079005C4CC7 /* Reachability.h */,
+				341E26D51CFA0079005C4CC7 /* Reachability.m */,
 				342EC8B51C63CA7A00D23226 /* Marker.h */,
 				342EC8B61C63CA7A00D23226 /* Marker.m */,
 				342EC8741C635E0200D23226 /* AppDelegate.h */,
 				342EC8751C635E0200D23226 /* AppDelegate.m */,
 				34D840141C6A2ECF00AEA41D /* Main.storyboard */,
+				342346BC1D11AA4300F2D92C /* CellDetailViewController.h */,
+				342346BD1D11AA4300F2D92C /* CellDetailViewController.m */,
 				341E26BE1CD7620A005C4CC7 /* ContactDetailViewController.h */,
 				341E26BF1CD7620A005C4CC7 /* ContactDetailViewController.m */,
 				341E26B81CD74872005C4CC7 /* Contacts.h */,
 				341E26B91CD74872005C4CC7 /* Contacts.m */,
 				341E26941CD2BCD1005C4CC7 /* FacebookTableViewController.h */,
 				341E26951CD2BCD1005C4CC7 /* FacebookTableViewController.m */,
+				341D48421D032C5000D73BD9 /* TimeTable.h */,
+				341D48431D032C5000D73BD9 /* TimeTable.m */,
 				341E269A1CD2BF4D005C4CC7 /* FacebookTableViewCell.h */,
 				341E269B1CD2BF4D005C4CC7 /* FacebookTableViewCell.m */,
 				341E269D1CD3F581005C4CC7 /* NotesViewController.h */,
@@ -229,7 +246,8 @@
 		342EC8711C635E0200D23226 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				341E26D01CD7C736005C4CC7 /* facebook.png */,
+				341D48451D0411E700D73BD9 /* timetable.json */,
+				341E26D21CD8880B005C4CC7 /* facebook.png */,
 				341E26CA1CD7AD21005C4CC7 /* black.png */,
 				341E26C61CD7A5A1005C4CC7 /* dtumain.jpg */,
 				341E26B31CD74796005C4CC7 /* dtuguide.json */,
@@ -292,9 +310,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		342EC86D1C635E0200D23226 /* DTUAdda */ = {
+		342EC86D1C635E0200D23226 /* DTU Guide */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 342EC89E1C635E0200D23226 /* Build configuration list for PBXNativeTarget "DTUAdda" */;
+			buildConfigurationList = 342EC89E1C635E0200D23226 /* Build configuration list for PBXNativeTarget "DTU Guide" */;
 			buildPhases = (
 				E076032ACCE309A634B10146 /* Check Pods Manifest.lock */,
 				342EC86A1C635E0200D23226 /* Sources */,
@@ -307,14 +325,14 @@
 			);
 			dependencies = (
 			);
-			name = DTUAdda;
+			name = "DTU Guide";
 			productName = DTUAdda;
-			productReference = 342EC86E1C635E0200D23226 /* DTUAdda.app */;
+			productReference = 342EC86E1C635E0200D23226 /* DTU Guide.app */;
 			productType = "com.apple.product-type.application";
 		};
-		342EC8891C635E0200D23226 /* DTUAddaTests */ = {
+		342EC8891C635E0200D23226 /* DTU GuideTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 342EC8A11C635E0200D23226 /* Build configuration list for PBXNativeTarget "DTUAddaTests" */;
+			buildConfigurationList = 342EC8A11C635E0200D23226 /* Build configuration list for PBXNativeTarget "DTU GuideTests" */;
 			buildPhases = (
 				342EC8861C635E0200D23226 /* Sources */,
 				342EC8871C635E0200D23226 /* Frameworks */,
@@ -325,14 +343,14 @@
 			dependencies = (
 				342EC88C1C635E0200D23226 /* PBXTargetDependency */,
 			);
-			name = DTUAddaTests;
+			name = "DTU GuideTests";
 			productName = DTUAddaTests;
-			productReference = 342EC88A1C635E0200D23226 /* DTUAddaTests.xctest */;
+			productReference = 342EC88A1C635E0200D23226 /* DTU Guide.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		342EC8941C635E0200D23226 /* DTUAddaUITests */ = {
+		342EC8941C635E0200D23226 /* DTU GuideUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 342EC8A41C635E0200D23226 /* Build configuration list for PBXNativeTarget "DTUAddaUITests" */;
+			buildConfigurationList = 342EC8A41C635E0200D23226 /* Build configuration list for PBXNativeTarget "DTU GuideUITests" */;
 			buildPhases = (
 				342EC8911C635E0200D23226 /* Sources */,
 				342EC8921C635E0200D23226 /* Frameworks */,
@@ -343,9 +361,9 @@
 			dependencies = (
 				342EC8971C635E0200D23226 /* PBXTargetDependency */,
 			);
-			name = DTUAddaUITests;
+			name = "DTU GuideUITests";
 			productName = DTUAddaUITests;
-			productReference = 342EC8951C635E0200D23226 /* DTUAddaUITests.xctest */;
+			productReference = 342EC8951C635E0200D23226 /* DTU Guide.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -373,7 +391,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 342EC8691C635E0200D23226 /* Build configuration list for PBXProject "DTUAdda" */;
+			buildConfigurationList = 342EC8691C635E0200D23226 /* Build configuration list for PBXProject "DTU Guide" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -386,9 +404,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				342EC86D1C635E0200D23226 /* DTUAdda */,
-				342EC8891C635E0200D23226 /* DTUAddaTests */,
-				342EC8941C635E0200D23226 /* DTUAddaUITests */,
+				342EC86D1C635E0200D23226 /* DTU Guide */,
+				342EC8891C635E0200D23226 /* DTU GuideTests */,
+				342EC8941C635E0200D23226 /* DTU GuideUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -405,9 +423,10 @@
 				34D840131C6A2D1E00AEA41D /* location_arrow.tiff in Resources */,
 				341E26C91CD7A625005C4CC7 /* Images.xcassets in Resources */,
 				342EC8811C635E0200D23226 /* Assets.xcassets in Resources */,
+				341D48461D0411E700D73BD9 /* timetable.json in Resources */,
 				34D840171C6A321A00AEA41D /* location_icon.tiff in Resources */,
 				341E26CB1CD7AD21005C4CC7 /* black.png in Resources */,
-				341E26D11CD7C736005C4CC7 /* facebook.png in Resources */,
+				341E26D31CD8880B005C4CC7 /* facebook.png in Resources */,
 				341E26A71CD495E6005C4CC7 /* overtime.png in Resources */,
 				34D840151C6A2ECF00AEA41D /* Main.storyboard in Resources */,
 				343161821C77DD5200498D61 /* map.json in Resources */,
@@ -493,9 +512,12 @@
 				341E26C01CD7620A005C4CC7 /* ContactDetailViewController.m in Sources */,
 				341E26991CD2BDFC005C4CC7 /* FacebookFeed.m in Sources */,
 				342EC8AD1C6391F800D23226 /* MapsViewController.m in Sources */,
+				342346BE1D11AA4300F2D92C /* CellDetailViewController.m in Sources */,
+				341D48441D032C5000D73BD9 /* TimeTable.m in Sources */,
 				341E26B71CD747AD005C4CC7 /* ContactsCollectionViewController.m in Sources */,
 				343161751C73A43000498D61 /* DemoClusterRenderer.m in Sources */,
 				341E26961CD2BCD1005C4CC7 /* FacebookTableViewController.m in Sources */,
+				341E26D61CFA0079005C4CC7 /* Reachability.m in Sources */,
 				341E269C1CD2BF4D005C4CC7 /* FacebookTableViewCell.m in Sources */,
 				341E269F1CD3F581005C4CC7 /* NotesViewController.m in Sources */,
 				341E26BA1CD74872005C4CC7 /* Contacts.m in Sources */,
@@ -523,12 +545,12 @@
 /* Begin PBXTargetDependency section */
 		342EC88C1C635E0200D23226 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 342EC86D1C635E0200D23226 /* DTUAdda */;
+			target = 342EC86D1C635E0200D23226 /* DTU Guide */;
 			targetProxy = 342EC88B1C635E0200D23226 /* PBXContainerItemProxy */;
 		};
 		342EC8971C635E0200D23226 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 342EC86D1C635E0200D23226 /* DTUAdda */;
+			target = 342EC86D1C635E0200D23226 /* DTU Guide */;
 			targetProxy = 342EC8961C635E0200D23226 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -562,9 +584,11 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: rv.daredevil@gmail.com (6FG29Y57M2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: rv.daredevil@gmail.com (6FG29Y57M2)";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -584,6 +608,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "580cf619-8af4-49cc-b114-0a40ff5952b6";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -605,11 +630,14 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: rv.daredevil@gmail.com (6FG29Y57M2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: rv.daredevil@gmail.com (6FG29Y57M2)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -620,6 +648,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "580cf619-8af4-49cc-b114-0a40ff5952b6";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -631,6 +661,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -641,7 +672,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ravin.DTUAdda;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "DTU Guide";
+				PROVISIONING_PROFILE = "580cf619-8af4-49cc-b114-0a40ff5952b6";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
@@ -652,6 +685,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -662,7 +696,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ravin.DTUAdda;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "DTU Guide";
+				PROVISIONING_PROFILE = "580cf619-8af4-49cc-b114-0a40ff5952b6";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
@@ -674,8 +710,8 @@
 				INFOPLIST_FILE = DTUAddaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ravin.DTUAddaTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DTUAdda.app/DTUAdda";
+				PRODUCT_NAME = "DTU Guide";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DTU Guide.app/DTU Guide";
 			};
 			name = Debug;
 		};
@@ -686,8 +722,8 @@
 				INFOPLIST_FILE = DTUAddaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ravin.DTUAddaTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DTUAdda.app/DTUAdda";
+				PRODUCT_NAME = "DTU Guide";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DTU Guide.app/DTU Guide";
 			};
 			name = Release;
 		};
@@ -697,7 +733,7 @@
 				INFOPLIST_FILE = DTUAddaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ravin.DTUAddaUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "DTU Guide";
 				TEST_TARGET_NAME = DTUAdda;
 				USES_XCTRUNNER = YES;
 			};
@@ -709,7 +745,7 @@
 				INFOPLIST_FILE = DTUAddaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ravin.DTUAddaUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "DTU Guide";
 				TEST_TARGET_NAME = DTUAdda;
 				USES_XCTRUNNER = YES;
 			};
@@ -718,7 +754,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		342EC8691C635E0200D23226 /* Build configuration list for PBXProject "DTUAdda" */ = {
+		342EC8691C635E0200D23226 /* Build configuration list for PBXProject "DTU Guide" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				342EC89C1C635E0200D23226 /* Debug */,
@@ -727,7 +763,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		342EC89E1C635E0200D23226 /* Build configuration list for PBXNativeTarget "DTUAdda" */ = {
+		342EC89E1C635E0200D23226 /* Build configuration list for PBXNativeTarget "DTU Guide" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				342EC89F1C635E0200D23226 /* Debug */,
@@ -736,7 +772,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		342EC8A11C635E0200D23226 /* Build configuration list for PBXNativeTarget "DTUAddaTests" */ = {
+		342EC8A11C635E0200D23226 /* Build configuration list for PBXNativeTarget "DTU GuideTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				342EC8A21C635E0200D23226 /* Debug */,
@@ -745,7 +781,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		342EC8A41C635E0200D23226 /* Build configuration list for PBXNativeTarget "DTUAddaUITests" */ = {
+		342EC8A41C635E0200D23226 /* Build configuration list for PBXNativeTarget "DTU GuideUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				342EC8A51C635E0200D23226 /* Debug */,
